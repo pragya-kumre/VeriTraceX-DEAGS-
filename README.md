@@ -1,4 +1,4 @@
- VeriTraceX – Digital Evidence Authenticity Grading System
+🔍 VeriTraceX – Digital Evidence Authenticity Grading System
 
 📌 Project Overview
 
@@ -58,12 +58,12 @@ D| Very low confidence – Manipulated
 
 📸 Screenshots
 
-(Add your project screenshot here)
+## 📸 Screenshots
 
-Example:
-"Screenshot" (screenshot.png)
-
----
+<p align="center">
+  <img src="screenshot1.png" width="45%" />
+  <img src="screenshot2.png" width="45%" />
+</p>
 
 💡 Future Enhancements
 
@@ -76,7 +76,7 @@ Example:
 
 👩‍💻 Developed By
 
-- Pragya Kumre 
+- Pragya Kumre
 - Namami Tiwari 
 
 ---
