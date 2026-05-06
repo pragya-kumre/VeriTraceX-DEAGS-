@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeriTraceX</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- ✅ REQUIRED LIBRARIES (DO NOT REMOVE) -->
+  <script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+
+<body>
+
+  <!-- LANDING PAGE (UNCHANGED) -->
+  <section id="landing" class="landing">
+    <div class="landing-content">
+
+      <h1>VeriTraceX</h1>
+
+      <h3 class="subtitle">Digital Evidence Authenticity System</h3>
+
+      <p class="tagline">
+        Detect tampering and verify image integrity using forensic analysis
+      </p>
+
+      <div class="features">
+        <p>🧠 Detects image manipulation using metadata patterns</p>
+        <p>🔐 Generates SHA-256 cryptographic fingerprint</p>
+        <p>📊 Provides evidence-based authenticity grading (A–D)</p>
+      </div>
+
+      <div class="cta">
+        <button onclick="startApp()">Start Analysis</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- APP SECTION -->
+<section id="app" class="container" style="display:none;">
+  <h2>Image Verification</h2>
+
+  <input type="file" id="fileInput" onchange="previewImage()">
+
+  <!-- IMAGE PREVIEW -->
+  <div>
+    <img id="preview" style="display:none; margin-top:15px; max-width:100%; border-radius:10px;" />
+  </div>
+
+  <!-- BUTTONS BELOW IMAGE -->
+  <div style="margin-top:15px;">
+    <button onclick="checkFile()">Analyze</button>
+    <button onclick="resetApp()">Reset</button>
+  </div>
+
+  <!-- RESULT -->
+  <div id="result">
+    Upload an image to start verification...
+  </div>
+</section>
+
+
+  <!-- YOUR SCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
