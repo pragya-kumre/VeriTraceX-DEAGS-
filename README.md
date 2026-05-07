@@ -1,4 +1,4 @@
-🔍 VeriTraceX – Digital Evidence Authenticity Grading System
+VeriTraceX – Digital Evidence Authenticity Grading System
 
 📌 Project Overview
 
@@ -60,10 +60,11 @@ D| Very low confidence – Manipulated
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="screenshot1.png" width="45%" />
-  <img src="screenshot2.png" width="45%" />
-</p>
+### Home Page
+<img src="C:\Users\kumre\OneDrive\Desktop\DEAGS-project\screenshots\home.png" width="700">
+
+### Analysis Report
+<img src="C:\Users\kumre\OneDrive\Desktop\DEAGS-project\screenshots\report.png" width="700">
 
 💡 Future Enhancements
 
