@@ -1,4 +1,4 @@
-VeriTraceX – Digital Evidence Authenticity Grading System
+<h1 align="center"> VeriTraceX – Digital Evidence Authenticity Grading System</h1>
 
 📌 Project Overview
 
@@ -56,15 +56,17 @@ D| Very low confidence – Manipulated
 
 ---
 
-📸 Screenshots
-
 ## 📸 Screenshots
 
-### Home Page
-<img src="screenshots/home.png" width="700">
+### 🏠 Dashboard
+<p align="center">
+  <img src="screenshots/home.png" width="300">
+</p>
 
-### Analysis Report
-<img src="screenshots/report.png" width="700">
+### 📊 Analysis Report
+<p align="center">
+  <img src="screenshots/report.png" width="300">
+</p>
 
 💡 Future Enhancements
 
