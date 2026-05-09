@@ -60,12 +60,12 @@ D| Very low confidence – Manipulated
 
 ### 🏠 Dashboard
 <p align="center">
-  <img src="screenshots/home.png" width="500">
+  <img src="screenshots/home.png" width="400">
 </p>
 
 ### 📊 Analysis Report
 <p align="center">
-  <img src="screenshots/report.png" width="500">
+  <img src="screenshots/report.png" width="400">
 </p>
 
 💡 Future Enhancements
