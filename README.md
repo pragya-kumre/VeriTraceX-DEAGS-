@@ -1,58 +1,68 @@
 <h1 align="center"> VeriTraceX – Digital Evidence Authenticity Grading System</h1>
 
-📌 Project Overview
-
-VeriTraceX is a web-based system designed to analyze the authenticity of digital images. It evaluates uploaded images using metadata (EXIF) analysis and cryptographic hashing to detect possible manipulation.
-
-This project was developed as part of a college micro project.
+<p align="center">
+A web-based forensic tool that analyzes image authenticity using metadata inspection and cryptographic hashing.
+</p>
 
 ---
 
-🚀 Key Features
+## 📌 Overview
 
-- 📂 Upload and preview image files
-- 🧠 Detect image manipulation using metadata analysis
-- 🔐 Generate SHA-256 hash for file integrity
-- 📊 Authenticity grading system (A–D)
-- ⚠️ Evidence-based detection (strong, medium, weak indicators)
-- 📄 Detailed analysis report
-- 🔄 Reset and re-analyze functionality
+VeriTraceX is a lightweight digital forensics prototype designed to evaluate whether an image has been altered or remains original.  
+It uses **EXIF metadata analysis** and **SHA-256 hashing** to detect manipulation signals and generate an authenticity grade.
+
+This project was built as a **college micro-project** to demonstrate foundational concepts in digital forensics and file integrity verification.
 
 ---
 
-🛠️ Technologies Used
+## 🚀 Features
 
-- HTML
-- CSS
-- JavaScript
-- EXIF.js
-- CryptoJS
-
----
-
-⚙️ How It Works
-
-1. User uploads an image
-2. Image preview is displayed
-3. Metadata (EXIF) is extracted
-4. SHA-256 hash is generated
-5. Evidence is analyzed
-6. System assigns a grade:
-   - A → Original Image
-   - B → Slightly Processed
-   - C → Uncertain
-   - D → Manipulated
-7. Final report is displayed with details and interpretation
+- 📂 Upload and preview images instantly  
+- 🧠 Extract and analyze EXIF metadata  
+- 🔐 Generate SHA-256 hash for file integrity check  
+- 📊 Authenticity grading system (A–D)  
+- ⚠️ Evidence-based detection logic  
+- 📄 Detailed forensic-style report  
+- 🔄 Reset and re-analyze functionality  
 
 ---
 
-📊 Grading System
+## 🛠️ Tech Stack
 
-Grade| Description
-A| High confidence – Original image
-B| Medium confidence – Slight processing
-C| Low confidence – Uncertain
-D| Very low confidence – Manipulated
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- EXIF.js  
+- CryptoJS  
+
+---
+
+## ⚙️ Working Flow
+
+1. Upload an image  
+2. Preview is displayed instantly  
+3. EXIF metadata is extracted  
+4. SHA-256 hash is generated  
+5. System evaluates authenticity signals  
+6. Image is classified into a grade:
+
+   - 🟢 **A** → Original / High confidence  
+   - 🟡 **B** → Slight processing detected  
+   - 🟠 **C** → Uncertain authenticity  
+   - 🔴 **D** → Likely manipulated  
+
+7. Final forensic report is generated  
+
+---
+
+## 📊 Grading System
+
+| Grade | Meaning |
+|------|--------|
+| A | High confidence – Original image |
+| B | Medium confidence – Slight processing |
+| C | Low confidence – Uncertain authenticity |
+| D | Very low confidence – Likely manipulated |
 
 ---
 
@@ -60,30 +70,42 @@ D| Very low confidence – Manipulated
 
 ### 🏠 Dashboard
 <p align="center">
-  <img src="screenshots/home.png" width="450">
+  <img src="screenshots/home.png" width="500"/>
 </p>
 
 ### 📊 Analysis Report
 <p align="center">
-  <img src="screenshots/report.png" width="450">
+  <img src="screenshots/report.png" width="500"/>
 </p>
 
-💡 Future Enhancements
+---
 
-- AI-based image verification
-- Deepfake detection
-- Database integration
-- Advanced forensic analysis
+## 🚀 Future Improvements
+
+- 🤖 AI-based image forgery detection  
+- 🧠 Deepfake detection module  
+- 🗄️ Database integration for case history  
+- 🔬 Advanced forensic analysis engine  
+- 📱 Mobile-responsive UI upgrade  
 
 ---
 
-👩‍💻 Developed By
+## 👩‍💻 Developed By
 
-- Pragya Kumre
-- Namami Tiwari 
+- Pragya Kumre  
+- Namami Tiwari  
 
 ---
 
-⭐ Note
+## ⭐ Note
 
-This is a prototype system created for learning and demonstration purposes.
+This project is a **prototype built for learning purposes**, focused on:
+- Digital forensics basics  
+- Image authenticity verification  
+- Cryptographic hashing techniques  
+
+---
+
+<p align="center">
+✨ Built for learning | Exploring digital forensics ✨
+</p>
