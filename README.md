@@ -61,10 +61,10 @@ D| Very low confidence – Manipulated
 ## 📸 Screenshots
 
 ### Home Page
-<img src="C:\Users\kumre\OneDrive\Desktop\DEAGS-project\screenshots\home.png" width="700">
+<img src="screenshots/home.png" width="700">
 
 ### Analysis Report
-<img src="C:\Users\kumre\OneDrive\Desktop\DEAGS-project\screenshots\report.png" width="700">
+<img src="screenshots/report.png" width="700">
 
 💡 Future Enhancements
 
